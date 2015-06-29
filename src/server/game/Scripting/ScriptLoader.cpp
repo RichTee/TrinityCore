@@ -676,6 +676,18 @@ void AddSC_shattrath_city();
 void AddSC_terokkar_forest();
 void AddSC_zangarmarsh();
 
+// Pandaria
+
+// Mogu'Shan Vaults
+
+// Terrace of Endless Springs
+
+// Throne of Thunder
+void AddSC_instance_throne_of_thunder();
+void AddSC_boss_lei_shen();
+// Siege of Orgrimmar
+
+
 // Maelstrom
 void AddSC_kezan();
 void AddSC_instance_stonecore(); // Stonecore
@@ -1414,6 +1426,13 @@ void AddNorthrendScripts()
 #endif
 }
 
+void AddPandariaScripts()
+{
+#ifdef SCRIPTS
+    AddSC_instance_throne_of_thunder();
+    AddSC_boss_lei_shen();
+#endif
+}
 
 void AddMaelstromScripts()
 {
