@@ -687,7 +687,6 @@ void AddSC_instance_throne_of_thunder();
 void AddSC_boss_lei_shen();
 // Siege of Orgrimmar
 
-
 // Maelstrom
 void AddSC_kezan();
 void AddSC_instance_stonecore(); // Stonecore
